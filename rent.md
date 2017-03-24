@@ -1,6 +1,8 @@
 ####获取柜子详情列表:
 - API：`/panel/club/1025/rent-cabinet/get-cabinet-details`
-
+	1. status: 0-等待借出，1已借出(未逾期),2已借出(逾期) ,3禁用
+	2. number:柜子编号
+	3. backTime：归还时间信息
 ####出租柜子
 - API:`/panel/club/1025/rent-cabinet/rent-cabinet-to-User`
 - parameter：
