@@ -8,6 +8,7 @@
 ####会员签到签退接口
 	/app/club/membership/receptionist/replace-sign
 	参数:
+		status： (in:签到,out签退)
 		vipUserId : 会员Id
 		ringNum:手环号(字符串)
 
